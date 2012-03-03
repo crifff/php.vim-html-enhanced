@@ -24,7 +24,7 @@
 
 " Options: 
 let php_noindent_switch=0    " set this to '1' to not try to indent switch/case statements
-set sw=3                     " default shiftwidth of 3 spaces
+set sw=2                     " default shiftwidth of 3 spaces
 
 
 if exists("b:did_indent")
@@ -269,4 +269,4 @@ fun! <SID>HtmlIndentSum(lnum, style)
     return 0
 endfun
 
-" vim: set ts=3 sw=3:
+" vim: set ts=2 sw=2:
